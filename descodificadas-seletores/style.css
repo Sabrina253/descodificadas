@@ -1,0 +1,44 @@
+/* Configuração geral para os quadrados */
+div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    transition: background-color 0.3s ease;
+}
+
+#quadrado-borda-escura-um:hover{
+    background-color: #a1ffff;
+    border: 3px solid black;
+}
+
+#quadrado-borda-escura-dois:hover{
+    background-color: #c42fcf;
+    border: 3px solid black;
+}
+
+#quadrado-borda-escura-tres:hover{
+    background-color: #d5c1c7;
+    border: 3px solid black;
+}
+
+#quadrado-borda-escura-quatro:hover{
+    background-color: #4de02c;
+    border: 3px solid black;
+}
+
+.quadrado-um {
+    background-color: #ff005b;
+}
+
+.quadrado-dois {
+    background-color: #9aedb5;
+}
+
+.quadrado-tres {
+    background-color: #c1d9cd;
+}
+
+.quadrado-quatro {
+    background-color: #ffb238;
+}
