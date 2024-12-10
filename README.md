@@ -15,6 +15,8 @@ Você pode visualizar os projetos no(s) link(s) abaixo:
 
 - [Quadrados Coloridos - Atividade do Curso Descodificadas](https://sabrina253.github.io/descodificadas/descodificadas-seletores/)
 
+- [Box Model - Atividade do Curso Descodificadas](https://sabrina253.github.io/descodificadas/box-model/)
+
 ---
 
 **Desenvolvido por Sabrina Alves** durante o curso **Descodificadas**.
