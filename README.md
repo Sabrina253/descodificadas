@@ -17,6 +17,8 @@ Você pode visualizar os projetos no(s) link(s) abaixo:
 
 - [Box Model - Atividade do Curso Descodificadas](https://sabrina253.github.io/descodificadas/box-model/)
 
+- [Site Doramas in Action - Projeto final da trilha 1 do Curso Descodificadas](https://sabrina253.github.io/descodificadas/site-dorama-in-action/)
+
 ---
 
-**Desenvolvido por Sabrina Alves** durante o curso **Descodificadas**.
+**Desenvolvido por Sabrina Alves** durante o curso **Descodificadas 2024**.
