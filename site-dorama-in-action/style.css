@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: aqua;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex; /* Alinha os elementos horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 10px; /* Espaço entre os elementos */
+}
+
+.header-container .fa-bars {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header .img {
+    width: 50px; /* Ajuste o tamanho do logo */
+    height: auto;
+}
+
+header .site-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fa-magnifying-glass {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.sessao-fundo-de-imagem {
+    background: url("img/imagem-de-fundo.jpg") no-repeat center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sessao-carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    width: 50%; /* Ajusta a largura do carrossel */
+    padding: 10px;
+}
+
+.texto-img {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.sessao-videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.videos {
+    width: 45%;
+    height: 315px;
+}
+
+.sessao-videos button {
+    background-color: #e22b34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sessao-videos button a {
+    text-decoration: none;
+    color: white;
+}
+
+.sessao-mapa, .formulario-google {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
