@@ -13,11 +13,11 @@ Este repositório é dedicado a armazenar todos os projetos desenvolvidos durant
 
 Você pode visualizar os projetos no(s) link(s) abaixo:
 
-- [Quadrados Coloridos - Atividade do Curso Descodificadas](https://sabrina253.github.io/descodificadas/descodificadas-seletores/)
+- [Quadrados Coloridos - Atividade do Curso Descodificadas](https://sabrina253.github.io/descodificadas/descodificadas-seletores)
 
-- [Box Model - Atividade do Curso Descodificadas](https://sabrina253.github.io/descodificadas/box-model/)
+- [Box Model - Atividade do Curso Descodificadas](https://sabrina253.github.io/descodificadas/box-model)
 
-- [Site Doramas in Action - Projeto final da trilha 1 do Curso Descodificadas](https://sabrina253.github.io/descodificadas/site-dorama-in-action/)
+- [Site Doramas in Action - Projeto final da trilha 1 do Curso Descodificadas](https://sabrina253.github.io/descodificadas/site-dorama-in-action)
 
 ---
 
