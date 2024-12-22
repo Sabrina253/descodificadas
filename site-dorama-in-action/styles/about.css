@@ -1,0 +1,133 @@
+:root {
+    /* cores */
+    --cor-dos-textos: #7c1780;
+    --cor-de-fundo-textos: #ffca64;
+    --cor-de-destaque: #e22b34;
+    --cor-para-sessao-videos: #ffffff;
+    /* fontes */
+    --fonte-principal: "Roboto", serif, arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #8a2fad;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5ffeff;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    margin: 0 auto;
+    gap: 150px;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: var(--cor-dos-textos);
+    font-size: 17px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+header .img-logo {
+    width: 50px;
+    height: auto;
+    padding-right: 10px;
+}
+
+header .site-title {
+    font-size: 24px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-dos-textos);
+}
+
+#search {
+    cursor: pointer;
+}
+
+main {
+    flex: 1; /* Faz o main ocupar todo o espaço disponível */
+    display: flex;
+    flex-direction: column;
+}
+
+.image-background-section {
+    background: url("../img/imagem-de-fundo.jpg") no-repeat center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+}
+
+.image-background-text {
+    font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-de-destaque);
+    margin: 0;
+    line-height: 1;
+}
+
+.paragraphs {
+    background-color: var(--cor-de-fundo-textos);
+    text-align: center;
+    color: var(--cor-dos-textos);
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+#gif-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 10vh;
+}
+    
+#gif-heart {
+        max-width: 10%;
+        height: auto;
+}
+    
+
+footer {
+    background-color: var(--cor-de-fundo-textos);
+    text-align: center;
+    color: var(--cor-dos-textos);
+    padding: 20px;
+}
