@@ -1,73 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doramas in Action</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <title>Dramas in Action</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Modak&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <i class="fa-solid fa-bars"></i>
-            <img src="img/logo-doramas-in-actions.png" class="img" alt="Logo Doramas">
-            <h1 class="site-title">Doramas in Action</h1>
-            <a>inicio</a>
-            <a>sobre</a>
-            <a>contato</a>
+            <img src="../img/logo-doramas-in-actions.png" class="img-logo" alt="Logo dorama in action">
+            <h1 class="site-title">Dorama in Action</h1>
+            <nav class="nav-links">
+                <a href="site-dorama-in-action/index.html" class="link-nav">Menu</a>
+                <a href="site-dorama-in-action/about.html" class="link-nav">Sobre</a>
+                <a href="site-dorama-in-action/contact.html" class="link-nav">Contato</a>
+            </nav>
         </div>
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <img id="search" src="../img/search.svg">
     </header>
     <main>
-        <section class="sessao-fundo-de-imagem">
-            <p class="texto-sessao-fundo-de-imagem">UM LUGAR PRA FALAR SOBRE DORAMAS</p>
+        <section class="image-background-section">
+            <p class="image-background-text">Um map sobre doramas</p>
         </section>
-        <section class="sessao-carrossel">
+        <section class="paragraphs">
+            <p id="quote-paragraph">“Faça o que gosta, porque a vida é uma só.” - Frase do dorama Primeira vez amor (2019).</p>
+        </section>
+        <section class="carousel-section">
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/cinzas-do-amor.jpg" class="d-block w-100" alt="Cinzas do Amor">
-                        <p class="texto-img">Cinzas do amor</p>
+                        <img src="../img/amor-oculto.jpg" class="d-block w-100" alt="Drama Amor Oculto">
+                        <p class="text-carousel">Amor Oculto</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/img-eu-nao-sou-um-robo.jpg" class="d-block w-100" alt="Amor Oculto">
-                        <p>Amor oculto</p>
+                        <img src="../img/eu-nao-sou-um-robo.jpg" class="d-block w-100" alt="Drama Eu Não Sou Um Robô">
+                        <p class="text-carousel">Eu Não Sou Um Robô</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/os-indomaveis.jpg" class="d-block w-100" alt="Os Indomáveis">
-                        <p>Os Indomáveis</p>
+                        <img src="../img/sorriso-real.jpg" class="d-block w-100" alt="Drama Sorriso Real">
+                        <p class="text-carousel">Sorriso Real</p>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
+                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </section>
-        <section class="sessao-videos">
-            <iframe class="videos" src="https://www.youtube.com/embed/Cz4JcNGWGNc" title="Dorama vídeo 1" allowfullscreen></iframe>
-            <iframe class="videos" src="https://www.youtube.com/embed/Cz4JcNGWGNc" title="Dorama vídeo 2" allowfullscreen></iframe>
-            <button><a href="https://www.youtube.com" target="_blank">Pesquisar mais</a></button>
+        <section class="paragraphs">
+            <p>K-dramas, C-dramas e muito mais! Segue abaixo alguns vídeos, com as melhores séries para maratonar.</p>
         </section>
-        <section class="sessao-mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!..." 
-                    width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+        <section class="video-section">
+            <iframe class="videos" src="https://www.youtube.com/embed/Cz4JcNGWGNc" title="Drama video 1" allowfullscreen></iframe>
+            <iframe class="videos" src="https://www.youtube.com/embed/R9Qm5SAXKvU?si=k0LJH0cT-jNO9N8u" title="Drama video 2" allowfullscreen></iframe>
+            <button><a href="https://www.youtube.com" target="_blank">Search more</a></button>
         </section>
-        <section class="formulario-google">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBu2LBeCG58tKrEOFwQJFoYlZQzX4ipeK0rkQl0l5DQk361w/viewform?embedded=true"
-                    width="640" height="719"></iframe>
+        <section class="paragraphs">
+            <h2>MIMOS DE DORAMAS</h2>
+            <hr>
+            <p>Quer encontrar itens exclusivos de seus doramas favoritos? Explore nosso maps com lojas físicas, marketplaces e dicas para encontrar produtos originais. Da Coreia do Sul ao Brasil, o mundo dos doramas está ao seu alcance! </p>
+        </section>
+        <section class="map">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15738.60002126835!2d-35.7302272!3d-9.539105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen-US!2sus!4v1734801827755!5m2!1sen-US!2sus" 
+        width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="paragraphs">
+            <p>Que tal se cadastrar para receber em primeira mão as novidades? Preencha o formulário abaixo.</p>
+        </section>
+        <section class="google-form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBu2LBeCG58tKrEOFwQJFoYlZQzX4ipeK0rkQl0l5DQk361w/viewform?embedded=true" width="600" height="450" frameborder="0" marginheight="0" marginwidth="0"></iframe>
         </section>
     </main>
-    <footer>
-        <p>Site fictício criado por Sabrina Alves - 2024.</p>
+    <footer class="paragraphs">
+        <p>Site fictício criado por Sabrina Alves no curso Descodificadas - 2024.</p>
     </footer>
-    <!-- Bootstrap Bundle JS (inclui Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
